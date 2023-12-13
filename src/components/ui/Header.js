@@ -1,10 +1,10 @@
 import React from 'react';
-import breakingBadLogo from '../../assets/breakingBadLogo.png';
+import harryPotterLogo from '../../assets/harryPotterLogo.png'
 
 export default function Header() {
   return (
     <header className='center'>
-        <img src={breakingBadLogo} alt="No Img" />
+        <img src={harryPotterLogo} alt="No Img" />
     </header>
   )
 }

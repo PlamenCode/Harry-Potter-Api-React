@@ -6,8 +6,7 @@
   
   html,
   body {
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgb(13, 68, 20) 95%);
+    background-color: rgb(63, 0, 63);
     height: 100vh;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
@@ -39,7 +38,7 @@
   }
   
   header img {
-    width: 200px;
+    width: 400px;
   }
   
   .center {
@@ -74,6 +73,8 @@
     background-color: transparent;
     height: 300px;
     perspective: 1000px;
+    border-radius: 10px;
+    overflow: hidden;
   }
   
   .card h1 {
@@ -120,6 +121,12 @@
   .card li {
     list-style: none;
     padding-bottom: 10px;
+  }
+
+  .spinner{
+    width: 500px;
+    margin: auto;
+    display: block;
   }
   
   @media (max-width: 800px) {
